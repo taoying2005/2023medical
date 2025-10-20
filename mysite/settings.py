@@ -95,3 +95,6 @@ USE_TZ = True
 
 # 静态文件路径
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'mysite', 'static'),
+]
